@@ -1,13 +1,15 @@
 package observerpatternbyjdk;
 
+import java.util.Observable;
+
 public class ObserverPatternTest {
     public static void main(String[] args) {
-        //1.创建主题
-        SendMessageSubject subject = new SendMessageSubject("hello world first observerPattern!");
-        //2.创建观察者
-        new SmsObserver(subject);
-        new MQObserver(subject);
-        //3.发送消息
-        subject.notifyObservers();
+        //1.创建具体主题
+        Observable subject = new SendMessageSubject();
+        //2.注册观察者
+        subject.addObserver(new SmsObserver());
+        subject.addObserver(new MQObserver());
+        //3.群发送消息
+        subject.notifyObservers("hello world first observerPattern!");
     }
 }
