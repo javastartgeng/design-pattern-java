@@ -1,4 +1,4 @@
-package strategydesignpattern.strategydesginpatternmyself.payImpl;
+package strategydesignpattern.strategydesginpatternmyself.payimpl;
 
 import strategydesignpattern.strategydesginpatternmyself.pay.Pay;
 

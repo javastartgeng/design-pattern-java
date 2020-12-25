@@ -1,4 +1,4 @@
-package strategydesignpattern.strategydesginpatternSpringboot.payEnum;
+package strategydesignpattern.strategydesginpatternspringboot.payenum;
 
 public enum PayEnum {
     WECHATPAY("weChatPay"),ZHIFUBAOPAY("zhifubaoPay");

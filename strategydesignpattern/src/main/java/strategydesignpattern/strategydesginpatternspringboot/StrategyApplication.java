@@ -1,4 +1,4 @@
-package strategydesignpattern.strategydesginpatternSpringboot;
+package strategydesignpattern.strategydesginpatternspringboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

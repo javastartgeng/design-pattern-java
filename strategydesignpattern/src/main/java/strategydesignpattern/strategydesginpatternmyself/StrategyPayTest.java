@@ -1,5 +1,6 @@
 package strategydesignpattern.strategydesginpatternmyself;
 
+import strategydesignpattern.strategydesginpatternmyself.context.PayContext;
 import strategydesignpattern.strategydesginpatternmyself.payEnum.PayEnum;
 
 public class StrategyPayTest {

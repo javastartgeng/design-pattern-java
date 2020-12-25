@@ -1,11 +1,11 @@
-package strategydesignpattern.strategydesginpatternSpringboot.context;
+package strategydesignpattern.strategydesginpatternspringboot.context;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
-import strategydesignpattern.strategydesginpatternSpringboot.payEnum.PayEnum;
-import strategydesignpattern.strategydesginpatternSpringboot.pay.Pay;
+import strategydesignpattern.strategydesginpatternspringboot.payenum.PayEnum;
+import strategydesignpattern.strategydesginpatternspringboot.pay.Pay;
 
 @Component
 public class Context implements ApplicationContextAware {

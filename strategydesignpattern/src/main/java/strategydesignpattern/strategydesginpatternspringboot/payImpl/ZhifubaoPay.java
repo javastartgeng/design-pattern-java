@@ -1,7 +1,7 @@
-package strategydesignpattern.strategydesginpatternSpringboot.payImpl;
+package strategydesignpattern.strategydesginpatternspringboot.payImpl;
 
 import org.springframework.stereotype.Component;
-import strategydesignpattern.strategydesginpatternSpringboot.pay.Pay;
+import strategydesignpattern.strategydesginpatternspringboot.pay.Pay;
 
 @Component
 public class ZhifubaoPay implements Pay {
