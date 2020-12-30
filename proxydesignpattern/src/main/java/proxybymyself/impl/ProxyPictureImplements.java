@@ -4,16 +4,16 @@ import proxybymyself.Picture;
 
 public class ProxyPictureImplements implements Picture {
 
-    private Picture image;
+    private RealPicture picture;
 
-    public ProxyPictureImplements(Picture image) {
-        this.image = image;
+    public ProxyPictureImplements(RealPicture picture) {
+        this.picture = picture;
     }
 
     @Override
     public void draw() {
         System.out.println("代理1：准备A4纸");
-        image.draw();
+        picture.draw();
         System.out.println("代理1：装订画框");
     }
 }
